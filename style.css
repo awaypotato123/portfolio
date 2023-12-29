@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin:0;
+    
+}
+
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.header-logo{
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: goldenrod;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    line-height: 1.8;
+    
+}
+
+.images{
+    display: flex;
+    max-width: 50px;
+    gap: 20px;
+    height: auto;
+}
+
